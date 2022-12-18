@@ -1,0 +1,944 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PANAMERA</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/porsche icon.png">
+    
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    
+    <!-- aos to make things looks nicer -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <nav class="navbar bg-white fixed-top mx-auto rounded-bottom">
+              <a class="navbar-brand" href="#">
+                  <img src="./images/PORSCHE-logo.png" alt="PORSCHE" width="200">
+                </a>
+      <div class="container-fluid">
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon light "></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <a class="navbar-brand" href="#">
+              <img src="./images/PORSCHE-logo.png" alt="PORSCHE" width="200">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item py-2">
+                <a class="nav-link active" aria-current="page" href="#first">About</a>
+              </li>
+              <li class="nav-item py-2">
+                <a class="nav-link active" aria-current="page" href="#view">Exterior View</a>
+              </li>
+              <li class="nav-item py-2">
+                <a class="nav-link active" aria-current="page" href="#model">Models</a>
+              </li>
+              <li class="nav-item py-2">
+                <a class="nav-link active" aria-current="page" href="#build">Build Your Own</a>
+              </li>
+            </ul>  
+          </div>
+        </div>
+      </div>
+    </nav>
+      <div class="wrapper">
+        
+          <!-- header -->
+            <header>
+              <div class="header-background">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./images/head.jpg" class="d-block text-center" width="200" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/head-2.webp" class="d-block" width="200" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/head-3.webp" class="d-block" width="200" alt="...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="header-text">
+                  <h1>Courage changes everything.</h1>
+                  <button class="header-button">
+                    <a class="nav-link" href="#first"> Scroll Down</a>
+                  </button>
+              </div>
+            </header>
+            <!-- navbar-sticky -->
+            
+            <!-- Cars -->
+                <section class="bg-white m-0 p-0" id="first">
+                  <ul class="list-group list-group-flush p-0 p-xl-5 p-md-0 p-sm-0 ">
+                    <div class="list-group-item container-fluid text-center pt-5">
+                      <div class="row mb-5">
+                        <div class="col-12 col-xl-7" >
+                          <img src="./images/concept.jpg" class="my-4" style="object-fit: cover; width: 95%; height: 60vh; object-position: 30% 20%;" alt="" >
+                        </div>
+                        <div class="col text-start px-3 px-xl-5 py-auto my-auto">
+                          <h2 class="fw-semibold fs-1 mx-0 mx-xl-5">Panamera Concept.</h2>
+                          <h6 class="fs-4 mx-0 mx-xl-5">Panamera</h6>
+                          <p class="fs-6 m-0 mx-0 mx-xl-5"><br> Can a vision be logical? Is it even allowed to be? Probably not. We believe that the more visionary an idea at the start, the more exciting it is at the end. Then it's worth fighting for. That was the case with the Panamera. A sports car for four? With impressive performance and great comfort?
+                            <br> <br>
+                          With the dynamism typical of Porsche and simultaneously more efficient? Many said it was impossible. Others called it brave.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container-fluid text-end mt-5">
+                      <div class="row p-0">
+                        <div class="col px-3 px-xl-5 my-auto">
+                          <h2 class="fw-semibold fs-1 mx-0 mx-xl-5">The Design.</h2>
+                          <h6 class="fs-4 mx-0 mx-xl-5">Panamera Executive</h6>
+                          <p class="fs-6 m-0 mx-0 mx-xl-5"><br>The Panamera Executive models combine sporty driving and comfortable working in the rear. The body has been lengthened by 15cm, which benefits the rear passengers in particular.
+                            <br> <br>
+                          Silver-coloured elements above the sideskirts are visual features of the Executive models. The air outlet trims in the front wings are in silver colour (high-gloss).</p>
+                        </div>
+                        <div class="col col-12 col-xl-7 text-center">
+                          <img src="./images/the design.jpg" class="my-4" style="object-fit: cover; width: 90%; height: 60vh;" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </ul>
+                  <!-- Highlights -->
+                  
+                  <div class="view m-0 mt-5" id="view">
+                    <h1 class="text-center mb-5">Exterior View</h1>
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade"  style="width: 100%;" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="./images/carousel/front.webp" class="d-block w-100 view" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/carousel/side.webp" class="d-block w-100 view" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/carousel/back.webp" class="d-block w-100 view" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/carousel/back-2.webp" class="d-block w-100 view" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/carousel/side-2.webp" class="d-block w-100 view" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/carousel/front-2.webp" class="d-block w-100 view" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                    </div>
+                  </div>
+                  <!-- Models -->
+                  
+                  <h1 class="text-center my-5" id="model">Models</h1>
+                  <div id="carouselExampleIndicators" class="carousel carousel-dark slide mx-auto shadow-lg p-3 mb-5 bg-body rounded" style="width: 90%; height: 30%;" data-bs-ride="true">
+                    <div class="carousel-inner px-0 px-xl-5 px-lg-5 px-md-5 px-sm-5">
+                      <div class="carousel-item active">
+                        <div class="row mb-5 ps-3 pt-3 px-auto">
+                          <div class="col col-12 col-xl-6">
+                            <h3 class="fw-semibold fs-1">Panamera GTS</h3>
+                            <h4 class="fs-3 ">IDR 3,900,000,000.00</h4>
+                            <div class="bg-danger rounded" style="width: 130px; height: 3px;"></div>
+                          </div>
+                          <div class="col text-center">
+                            <img src="./images/gts.webp" style="width: 90%; " alt="">
+                          </div>
+                        </div>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item py-4">
+                              <div class="row">
+                                <h1 class="col fw-semibold carousel-text position-absolute top-50 start-50 translate-middle" >353kW/480PS</h1>
+                                <p class="col position-absolute carousel-text-2 top-50 start-100 translate-middle ps-3" >Power(kW)/Power(PS)</p>
+                              </div>
+                            </li>
+                            <li class="list-group-item py-4">
+                              <div class="row">
+                                <h1 class="col fw-semibold carousel-text position-absolute top-50 start-50 translate-middle" >3,9 s</h1>
+                                <p class="col position-absolute carousel-text-2 top-50 start-100 translate-middle"
+                                >Acceleration 0 - 100km/h</p>
+                              </div>
+                            </li>
+                            <li class="list-group-item py-4">
+                              <div class="row">
+                                <h1 class="col fw-semibold carousel-text position-absolute top-50 start-50 translate-middle"
+                                >300km/h</h1>
+                                <p class="col position-absolute carousel-text-2 top-50 start-100 translate-middle"
+                                >Top Speed</p>
+                              </div>
+                            </li>
+                          </ul>
+                          <div class="text-center">
+                            <div class="row gap-2 w-75 mx-auto">
+                              <!-- Tech -->
+                              <button class="col btn border-dark rounded-0 "  type="button" data-bs-toggle="offcanvas" data-bs-target="#specGTS" aria-controls="specGTS">
+                                <div class="col row position-relative ps-4 pe-3 py-2 ">
+                                  <span class="col carousel-control-next-icon position-absolute top-50 translate-middle" style="width: 5%;"></span>
+                                  <p class="m-0 fw-thin ms-1">Technical Specs</p>
+                                </div>
+                              </button>
+                                <!-- Purchase -->
+                                <button type="button" class="col btn border-dark rounded-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <div class="col row position-relative ps-4 pe-3 py-2 ">
+                                      <span class="col carousel-control-next-icon position-absolute top-50 translate-middle" style="width: 5%;"></span>
+                                      <p class="m-0 fw-thin ms-1">Purchase</p>
+                                    </div>
+                                </button>
+                              </div>
+                            </div>
+                          </div> 
+                      <div class="carousel-item user-select-none">
+                        <div class="row mb-5 ps-3 pt-3">
+                          <div class="col col-12 col-xl-6"">
+                            <h3 class="fw-semibold fs-1">Panamera Turbo S</h3>
+                            <h4 class="fw-semibold fs-3">IDR 3,900,000,000.00</h4>
+                            <div class="bg-danger rounded" style="width: 130px; height: 3px;"></div>
+                          </div>
+                          <div class="col text-center">
+                            <img src="./images/turbo s.webp" style="width: 90%; " alt="">
+                          </div>
+                        </div>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item py-4">
+                              <div class="row">
+                                <h1 class="col fw-semibold carousel-text position-absolute top-50 start-50 translate-middle" >463kW/630PS </h1>
+                                <p class="col position-absolute carousel-text-2 top-50 start-100 translate-middle" >Power(kW)/Power(PS)</p>
+                              </div>
+                            </li>
+                            <li class="list-group-item py-4">
+                              <div class="row">
+                                <h1 class="col fw-semibold carousel-text position-absolute top-50 start-50 translate-middle" >3,1 s</h1>
+                                <p class="col position-absolute carousel-text-2 top-50 start-100 translate-middle" >Acceleration 0 - 100km/h</p>
+                              </div>
+                            </li>
+                            <li class="list-group-item py-4">
+                              <div class="row">
+                                <h1 class="col fw-semibold carousel-text position-absolute top-50 start-50 translate-middle" >315km/h</h1>
+                                <p class="col position-absolute carousel-text-2 top-50 start-100 translate-middle" >Top Speed</p>
+                              </div>
+                            </li>
+                          </ul>
+                          <div class="text-center">
+                            <div class="row gap-2 w-75 mx-auto">
+                              <!-- spec -->
+                              <button class="col btn border-dark rounded-0 "  type="button" data-bs-toggle="offcanvas" data-bs-target="#specTurboS" aria-controls="specTurboS">
+                                <div class="col row position-relative ps-4 pe-3 py-2 ">
+                                  <span class="col carousel-control-next-icon position-absolute top-50 translate-middle" style="width: 5%;"></span>
+                                  <p class="m-0 fw-thin ms-1">Technical Specs</p>
+                                </div>
+                              </button>
+                                <!-- Purchase -->
+                                <button type="button" class="col btn border-dark rounded-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <div class="col row position-relative ps-4 pe-3 py-2 ">
+                                      <span class="col carousel-control-next-icon position-absolute top-50 translate-middle" style="width: 5%;"></span>
+                                      <p class="m-0 fw-thin ms-1">Purchase</p>
+                                    </div>
+                                </button>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item user-select-none">
+                        <div class="row mb-5 ps-3 pt-3">
+                          <div class="col col-12 col-xl-6"">
+                            <h3 class="fw-semibold fs-1">Panamera Turbo S <br> Hybrid</h3>
+                            <h4 class="fs-3 ">IDR 3,900,000,000.00</h4>
+                            <div class="bg-danger rounded" style="width: 130px; height: 3px;"></div>
+                          </div>
+                          <div class="col text-center">
+                            <img src="./images/turbo s hybrid.webp"style="width: 90%; " alt="">
+                          </div>
+                        </div>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item py-4">
+                              <div class="row">
+                                <h1 class="col fw-semibold carousel-text position-absolute top-50 start-50 translate-middle" >515kW/700PS</h1>
+                                <p class="col position-absolute carousel-text-2 top-50 start-100 translate-middle" >Power(kW)/Power(PS)</p>
+                              </div>
+                            </li>
+                            <li class="list-group-item py-4">
+                              <div class="row">
+                                <h1 class="col fw-semibold carousel-text position-absolute top-50 start-50 translate-middle" >3,2 s</h1>
+                                <p class="col position-absolute carousel-text-2 top-50 start-100 translate-middle" >Acceleration 0 - 100km/h</p>
+                              </div>
+                            </li>
+                            <li class="list-group-item py-4">
+                              <div class="row">
+                                <h1 class="col fw-semibold carousel-text position-absolute top-50 start-50 translate-middle" >315km/h</h1>
+                                <p class="col position-absolute carousel-text-2 top-50 start-100 translate-middle" >Top Speed</p>
+                              </div>
+                            </li>
+                          </ul>
+                          <div class="text-center">
+                            <div class="row gap-2 w-75 mx-auto">
+                              <!-- spec -->
+                              <button class="col btn border-dark rounded-0"  type="button" data-bs-toggle="offcanvas" data-bs-target="#specTurboHybrid" aria-controls="specTurboHybrid">
+                                <div class="col row position-relative ps-4 pe-3 py-2 ">
+                                  <span class="col carousel-control-next-icon position-absolute top-50 translate-middle" style="width: 5%;"></span>
+                                  <p class="m-0 fw-thin ms-1">Technical Specs</p>
+                                </div>
+                              </button>
+                                <!-- Purchase -->
+                                <button type="button" class="col btn border-dark rounded-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <div class="col row position-relative ps-4 pe-3 py-2 ">
+                                      <span class="col carousel-control-next-icon position-absolute top-50 translate-middle" style="width: 5%;"></span>
+                                      <p class="m-0 fw-thin ms-1">Purchase</p>
+                                    </div>
+                                </button>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+      <!-- choose -->
+                  <h1 class="text-center mt-5" id="build">Choose Your Panamera</h1>
+                  <div class="choose p-5">
+                    <div class="row">
+                      <div class="col col-12 col-xl-6">
+                        <div class="tumpuk">
+                          <div id="chooseCarousel" class="carousel slide carousel-fade tumpuk-in p-0 p-xl-5 " data-bs-ride="false">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./images/choose/the car/panamera white.jpg" class="d-block w-100" alt="white">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./images/choose/the car/panamera black.jpg" class="d-block w-100" alt="black">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./images/choose/the car/panamera red.jpg" class="d-block w-100" alt="red">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./images/choose/the car/panamera brown.jpg" class="d-block w-100" alt="brown">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./images/choose/the car/panamera orange.jpg" class="d-block w-100" alt="orange">
+                              </div>
+                            </div>
+                          </div>
+                          <div id="chooseCarouselRim" class="carousel slide carousel-fade tumpuk-in p-0 p-xl-5" data-bs-ride="false">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./images/choose/rims/panamera metallic rim 2.png" class="d-block w-100" alt="metallic rim">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./images/choose/rims/panamera black rim.png" class="d-block w-100" alt="black rim">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./images/choose/rims/panamera black white rim 2.png" class="d-block w-100" alt="bw rim 2">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./images/choose/rims/panamera black white rim.png" class="d-block w-100" alt="bw rim">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./images/choose/rims/panamera gold rim.png" class="d-block w-100" alt="gold rim">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                            <h4 class="fw-semibold">Exterior Colour</h4>
+                          </li>
+                          <div class="row py-3 mx-2 justify-content-center">
+                            <div class="col col-auto col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                              <button type="button" data-bs-target="#chooseCarousel" data-bs-slide-to="0" class="border shadow mb-5 bg-body" aria-current="true" aria-label="Slide 1" style="width: 70px; height: 70px; background-color: white; "></button>
+                            </div>
+                            <div class="col col-auto col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                              <button type="button" data-bs-target="#chooseCarousel" data-bs-slide-to="1" class="border shadow p-3 mb-5 bg-body" aria-current="true" aria-label="Slide 2" style="width: 70px; height: 70px; background-color: black!important;"></button>
+                            </div>
+                            <div class="col col-auto col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                              <button type="button" data-bs-target="#chooseCarousel" data-bs-slide-to="2" class="border shadow p-3 mb-5 bg-body" aria-current="true" aria-label="Slide 3" style="width: 70px; height: 70px; background-color: #8C1A35!important;"></button>
+                            </div>
+                            <div class="col col-auto col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                              <button type="button" data-bs-target="#chooseCarousel" data-bs-slide-to="3" class="border shadow p-3 mb-5 bg-body" aria-current="true" aria-label="Slide 4" style="width: 70px; height: 70px; background-color: #492A3B!important;"></button>
+                            </div>
+                            <div class="col col-auto col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                              <button type="button" data-bs-target="#chooseCarousel" data-bs-slide-to="4" class="border shadow p-3 mb-5 bg-body" aria-current="true" aria-label="Slide 5" style="width: 70px; height: 70px; background-color: #C35032!important;"></button>
+                            </div>
+                          </div>
+                        </ul>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                            <h4 class="fw-semibold">Wheel</h4>
+                          </li>
+                          <div class="row py-3 ms-2 justify-content-center" style="width: 90%; padding-right: 0%!important">
+                            <div class="col col-auto col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                              <button type="button" data-bs-target="#chooseCarouselRim" data-bs-slide-to="0" class="bg-transparent"aria-current="true" aria-label="Slide 1"> 
+                              <img src="./images/choose/rims/icons/balanced/Panamera black white rim 2.png" style="width: 70px;" alt=""></button>
+                            </div>
+                            <div class="col col-auto col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                              <button type="button" data-bs-target="#chooseCarouselRim" data-bs-slide-to="1" class="bg-transparent"aria-current="true" aria-label="Slide 2">
+                              <img src="./images/choose/rims/icons/balanced/panamera black rim.png" style="width: 70px;" alt="">
+                            </button>
+                            </div>
+                            <div class="col col-auto col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                              <button type="button" data-bs-target="#chooseCarouselRim" data-bs-slide-to="2" class="bg-transparent" aria-current="true" aria-label="Slide 3">
+                              <img src="./images/choose/rims/icons/balanced/Panamera black white rim 2.png" style="width: 70px;" alt="">
+                            </button>
+                            </div>
+                            <div class="col col-auto col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                              <button type="button" data-bs-target="#chooseCarouselRim" data-bs-slide-to="3" class="bg-transparent"  aria-current="true" aria-label="Slide 4">
+                              <img src="./images/choose/rims/icons/balanced/panamera black white rim.png" style="width: 70px;" alt="">
+                            </button>
+                            </div>
+                            <div class="col col-auto col-xl-2 col-lg-2 col-md-2 col-sm-2">
+                              <button type="button" data-bs-target="#chooseCarouselRim" data-bs-slide-to="4" class="bg-transparent" aria-current="true" aria-label="Slide 5">
+                              <img src="./images/choose/rims/icons/balanced/panamera gold rim.png" style="width: 72px;" alt="">
+                            </button>
+                            </div>
+                          </div>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contact-us">
+                    <div class="contact-bg"></div>
+                    <div class="row">
+                      <div class="col contact-in text-white mx-5 my-auto w-50 py-3">
+                        <h1>Visit.</h1>
+                        <p class="fs-5">Contact your authorized Porsche dealer, request information, or register for exclusive Porsche news.</p>
+                        <button type="button" class="btn btn-dark rounded-1">
+                        <h3 class="m-0">Contact</h3>
+                      </button>
+                    </div>
+                        <div class="col my-2 col-12 col-xl-5 col-lg-5 col-md-5">
+                          <div class="mapouter"><div class="gmap_canvas text-center"><iframe class="gmap_iframe" width="90%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Porsche Centre Jakarta, Jalan Arteri Pondok Indah Arteri Pondok Indah, RT.6/RW.3, North Kebayoran Lama, South Jakarta City, Jakarta, Indonesia&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://formatjson.org/">format json</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:100%;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:100%;}.gmap_iframe {height:100%!important;}</style></div>
+                        </div>
+                    </div>
+                  </div>
+                </section>
+                <footer>
+                  <div class="footer">
+                    <div class="footer-things">
+                      <img src="./images/PORSCHE-logo-white.png" width="20%" alt="">
+                      <h5 class="text-white fs-6 mt-2 fw-thin">© 2022 Porsche Asia Pacific Pte. Ltd.</h5>
+                    </div>
+                  </div>
+                </footer>
+      <!-- Wrapper End -->
+      </div> 
+      <!-- modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">HAHA NO MONEY</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        MAU BELI PORSCHE TAPI DUIT AJA GA PUNYA
+                        <img src="./images/kocak.jpg" style="width: 70%; height: 200px;" alt="">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary text-center" data-bs-dismiss="modal">F</button>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+
+      <!-- Offcanvas spec GTS -->
+      <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="specGTS" aria-labelledby="specGTS">
+        <button type="button" class="btn-close position-absolute m-4 end-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <div class="offcanvas-header bg-light" style="width: 100vw;">
+          <div class="row">
+          <h3 class="col offcanvas-title fw-semibold fs-1" id="offcanvasBottomLabel">Panamera GTS</h3>
+          <h3 class="fs-4">IDR 3,900,000,000.00</h3>
+          <h5>Price</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-12 col-xl-5 col-lg-5 col-md-5 p-3 px-5">
+            <h1 class="fw-semibold">Technical Specs</h1>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h1 class="fs-5 fw-semibold">Power Unit</h1>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body p-1">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Number of cylinders</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">8</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Fuel grade</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">98</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Bore</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">86.0</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Displacement</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">3,996</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Power (kW)</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">353 kW</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Power (PS)</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">480 PS</h1>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h1 class="fs-5 fw-semibold">Performance</h1>
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body p-1">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Top speed</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">315 km/h</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Acceleration 0-60 mph with Sport Chrono Package</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">2.9 s</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Acceleration 0 - 100 km/h with Sport Chrono Package</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">3.1 s</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Acceleration 0 - 160 km/h with Sport Chrono Package</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">7.2 s</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Acceleration 0 - 200 km/h with Sport Chrono Package</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">11.2 s</h1>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <h1 class="fs-5 fw-semibold">Price</h1>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Rp</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">3.900.000.00</h1>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row mx-auto mt-3 text-center position-relative px-0 px-xl-5 px-lg-4" style="width: 100%;">
+              <div class="col text-start mx-0 mx-xl-5 mx-lg-5">
+                <h3 class="fs-6">Height</h3>
+                <h1 class="fs-5 fw-semibold">1.417 mm</h1>
+              </div>
+              <div class="col text-end mx-0 mx-xl-5 mx-lg-5">
+                <h3 class="fs-6">Length</h3>
+                <h1 class="fs-5 fw-semibold">5.3053 mm</h1>
+              </div>
+            </div>
+            <div class="vector mx-auto" style="width: 50vw; height: 60vh;">
+              <div class="mx-auto" style="width: 200px;">
+                <img src="./images/porsche vector.png" class="mx-auto" style="width: 200px;" alt="">
+              </div>
+            </div>
+            <div class="row mx-auto text-center px-0 px-xl-5 px-lg-4" style="width: 100%;">
+              <div class="col text-start mx-0 mx-xl-5 mx-lg-5">
+                <h3 class="fs-6">Wheelbase</h3>
+                <h1 class="fs-5 fw-semibold">2.950 mm</h1>
+              </div>
+              <div class="col text-end mx-0 mx-xl-5 mx-lg-5">
+                <h3 class="fs-6">Width</h3>
+                <h1 class="fs-5 fw-semibold">1.937 mm</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Offcanvas spec turbo S -->
+      <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="specTurboS" aria-labelledby="specTurboS">
+          <button type="button" class="btn-close position-absolute m-4 end-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <div class="offcanvas-header bg-light" style="width: 100vw;">
+            <div class="row">
+            <h3 class="col offcanvas-title fw-semibold fs-1" id="offcanvasBottomLabel">Panamera Turbo S</h3>
+            <h3 class="fs-4">IDR 3,900,000,000.00</h3>
+            <h5>Price</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-12 col-xl-5 col-lg-5 col-md-5 p-3 px-5">
+              <h1 class="fw-semibold">Technical Specs</h1>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <h1 class="fs-5 fw-semibold">Power Unit</h1>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body p-1">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item py-3">
+                          <div class="row">
+                            <h1 class="col fs-6">Number of cylinders</h1>
+                            <h1 class="col fs-5 fw-semibold mb-0">8</h1>
+                          </div>
+                        </li>
+                        <li class="list-group-item py-3">
+                          <div class="row">
+                            <h1 class="col fs-6">Fuel grade</h1>
+                            <h1 class="col fs-5 fw-semibold mb-0">98</h1>
+                          </div>
+                        </li>
+                        <li class="list-group-item py-3">
+                          <div class="row">
+                            <h1 class="col fs-6">Bore</h1>
+                            <h1 class="col fs-5 fw-semibold mb-0">86.0</h1>
+                          </div>
+                        </li>
+                        <li class="list-group-item py-3">
+                          <div class="row">
+                            <h1 class="col fs-6">Displacement</h1>
+                            <h1 class="col fs-5 fw-semibold mb-0">3,996</h1>
+                          </div>
+                        </li>
+                        <li class="list-group-item py-3">
+                          <div class="row">
+                            <h1 class="col fs-6">Power (kW)</h1>
+                            <h1 class="col fs-5 fw-semibold mb-0">353 kW</h1>
+                          </div>
+                        </li>
+                        <li class="list-group-item py-3">
+                          <div class="row">
+                            <h1 class="col fs-6">Power (PS)</h1>
+                            <h1 class="col fs-5 fw-semibold mb-0">480 PS</h1>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <h1 class="fs-5 fw-semibold">Performance</h1>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body p-1">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item py-3">
+                          <div class="row">
+                            <h1 class="col fs-6">Top speed</h1>
+                            <h1 class="col fs-5 fw-semibold mb-0">315 km/h</h1>
+                          </div>
+                        </li>
+                        <li class="list-group-item py-3">
+                          <div class="row">
+                            <h1 class="col fs-6">Acceleration 0-60 mph with Sport Chrono Package</h1>
+                            <h1 class="col fs-5 fw-semibold mb-0">2.9 s</h1>
+                          </div>
+                        </li>
+                        <li class="list-group-item py-3">
+                          <div class="row">
+                            <h1 class="col fs-6">Acceleration 0 - 100 km/h with Sport Chrono Package</h1>
+                            <h1 class="col fs-5 fw-semibold mb-0">3.1 s</h1>
+                          </div>
+                        </li>
+                        <li class="list-group-item py-3">
+                          <div class="row">
+                            <h1 class="col fs-6">Acceleration 0 - 160 km/h with Sport Chrono Package</h1>
+                            <h1 class="col fs-5 fw-semibold mb-0">7.2 s</h1>
+                          </div>
+                        </li>
+                        <li class="list-group-item py-3">
+                          <div class="row">
+                            <h1 class="col fs-6">Acceleration 0 - 200 km/h with Sport Chrono Package</h1>
+                            <h1 class="col fs-5 fw-semibold mb-0">11.2 s</h1>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <h1 class="fs-5 fw-semibold">Price</h1>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item py-3">
+                          <div class="row">
+                            <h1 class="col fs-6">Rp</h1>
+                            <h1 class="col fs-5 fw-semibold mb-0">3.900.000.00</h1>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col" style="width: 100%;">
+              <div class="row mx-auto mt-3 text-center position-relative px-0 px-xl-5 px-lg-4" style="width: 100%;">
+                <div class="col text-start mx-0 mx-xl-5 mx-lg-5">
+                  <h3 class="fs-6">Height</h3>
+                  <h1 class="fs-5 fw-semibold">1.417 mm</h1>
+                </div>
+                <div class="col text-end mx-0 mx-xl-5 mx-lg-5">
+                  <h3 class="fs-6">Length</h3>
+                  <h1 class="fs-5 fw-semibold">5.3053 mm</h1>
+                </div>
+              </div>
+              <div class="vector mx-auto" style="width: 50vw; height: 60vh;">
+                <div class="mx-auto" style="width: 200px;">
+                  <img src="./images/porsche vector.png" class="mx-auto" style="width: 200px;" alt="">
+                </div>
+              </div>
+              <div class="row mx-auto text-center px-0 px-xl-5 px-lg-4" style="width: 100%;">
+                <div class="col text-start mx-0 mx-xl-5 mx-lg-5">
+                  <h3 class="fs-6">Wheelbase</h3>
+                  <h1 class="fs-5 fw-semibold">2.950 mm</h1>
+                </div>
+                <div class="col text-end mx-0 mx-xl-5 mx-lg-5">
+                  <h3 class="fs-6">Width</h3>
+                  <h1 class="fs-5 fw-semibold">1.937 mm</h1>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Offcanvas spec hybrid S -->
+      <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" id="specTurboHybrid" aria-labelledby="specTurboHybrid">
+        <button type="button" class="btn-close position-absolute m-4 end-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <div class="offcanvas-header bg-light" style="width: 100vw;">
+          <div class="row">
+          <h3 class="col offcanvas-title fw-semibold fs-1" id="offcanvasBottomLabel">Panamera Turbo S Hybrid</h3>
+          <h3 class="fs-4">IDR 3,900,000,000.00</h3>
+          <h5>Price</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-12 col-xl-5 col-lg-5 col-md-5 p-3 px-5">
+            <h1 class="fw-semibold">Technical Specs</h1>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h1 class="fs-5 fw-semibold">Power Unit</h1>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body p-1">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Number of cylinders</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">8</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Fuel grade</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">98</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Bore</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">86.0</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Displacement</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">3,996</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Power (kW)</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">353 kW</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Power (PS)</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">480 PS</h1>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h1 class="fs-5 fw-semibold">Performance</h1>
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body p-1">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Top speed</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">315 km/h</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Acceleration 0-60 mph with Sport Chrono Package</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">2.9 s</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Acceleration 0 - 100 km/h with Sport Chrono Package</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">3.1 s</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Acceleration 0 - 160 km/h with Sport Chrono Package</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">7.2 s</h1>
+                        </div>
+                      </li>
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Acceleration 0 - 200 km/h with Sport Chrono Package</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">11.2 s</h1>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <h1 class="fs-5 fw-semibold">Price</h1>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item py-3">
+                        <div class="row">
+                          <h1 class="col fs-6">Rp</h1>
+                          <h1 class="col fs-5 fw-semibold mb-0">3.900.000.00</h1>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" style="width: 100%;">
+            <div class="row mx-auto mt-3 text-center position-relative px-0 px-xl-5 px-lg-4" style="width: 100%;">
+              <div class="col text-start mx-0 mx-xl-5 mx-lg-5">
+                <h3 class="fs-6">Height</h3>
+                <h1 class="fs-5 fw-semibold">1.417 mm</h1>
+              </div>
+              <div class="col text-end mx-0 mx-xl-5 mx-lg-5">
+                <h3 class="fs-6">Length</h3>
+                <h1 class="fs-5 fw-semibold">5.3053 mm</h1>
+              </div>
+            </div>
+            <div class="vector mx-auto" style="width: 50vw; height: 60vh;">
+              <div class="mx-auto" style="width: 200px;">
+                <img src="./images/porsche vector.png" class="mx-auto" style="width: 200px;" alt="">
+              </div>
+            </div>
+            <div class="row mx-auto text-center px-0 px-xl-5 px-lg-4" style="width: 100%;">
+              <div class="col text-start mx-0 mx-xl-5 mx-lg-5">
+                <h3 class="fs-6">Wheelbase</h3>
+                <h1 class="fs-5 fw-semibold">2.950 mm</h1>
+              </div>
+              <div class="col text-end mx-0 mx-xl-5 mx-lg-5">
+                <h3 class="fs-6">Width</h3>
+                <h1 class="fs-5 fw-semibold">1.937 mm</h1>
+              </div>
+          </div>
+        </div>
+      </div>
+    <!-- some scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./smooth.js"></script>
+  </body>
+</html>
